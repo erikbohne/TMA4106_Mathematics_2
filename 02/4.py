@@ -20,5 +20,5 @@ plt.plot(x, S(x, 1), label = 'N = 1', linestyle = '--')
 plt.plot(x, S(x, 2), label = 'N = 2', linestyle = ':')
 plt.plot(x, S(x, 3), label = 'N = 3', linestyle = '-.')
 plt.legend()
-plt.show()
+plt.savefig('4.png')
 
