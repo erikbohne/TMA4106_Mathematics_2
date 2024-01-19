@@ -9,7 +9,7 @@ def An(n):
     if n == 0:
         return np.pi**2 / 2
     else:
-        return 2 * (np.pi*n*np.sin(np.pi*n) + np.cos(np.pi*n) - 1) / (n**2 * np.pi)
+        return 2*((-1)**n - 1) / (n**2 * np.pi)
     
 def S(x, t, N):
     s = 0
